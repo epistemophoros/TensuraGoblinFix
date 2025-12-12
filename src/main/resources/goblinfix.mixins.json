@@ -1,5 +1,5 @@
 {
-  "required": false,
+  "required": true,
   "minVersion": "0.8",
   "package": "com.goblinfix.mixin",
   "compatibilityLevel": "JAVA_17",
@@ -9,8 +9,7 @@
   ],
   "client": [],
   "injectors": {
-    "defaultRequire": 0
-  },
-  "plugin": null
+    "defaultRequire": 1
+  }
 }
 
