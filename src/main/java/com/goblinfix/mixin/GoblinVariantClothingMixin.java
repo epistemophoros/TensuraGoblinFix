@@ -1,6 +1,7 @@
 package com.goblinfix.mixin;
 
 import org.spongepowered.asm.mixin.Mixin;
+import org.spongepowered.asm.mixin.Pseudo;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
 import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
@@ -9,6 +10,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
  * Mixin to fix ArrayIndexOutOfBoundsException in GoblinVariant$Clothing.byId()
  * when the Clothing ID is -1 or otherwise out of bounds (valid range: 0-5)
  */
+@Pseudo
 @Mixin(targets = "com.github.manasmods.tensura.entity.variant.GoblinVariant$Clothing", remap = false)
 public class GoblinVariantClothingMixin {
 
