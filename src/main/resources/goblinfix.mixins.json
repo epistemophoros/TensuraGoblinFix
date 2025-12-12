@@ -1,0 +1,15 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "com.goblinfix.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "refmap": "goblinfix.refmap.json",
+  "mixins": [
+    "GoblinVariantClothingMixin"
+  ],
+  "client": [],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
+

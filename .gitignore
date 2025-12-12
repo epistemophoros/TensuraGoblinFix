@@ -1,0 +1,35 @@
+# Gradle
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+
+# IDE
+.idea/
+*.iml
+*.ipr
+*.iws
+.project
+.classpath
+.settings/
+out/
+bin/
+
+# Eclipse
+eclipse/
+
+# Runtime
+run/
+logs/
+
+# OS
+.DS_Store
+Thumbs.db
+*.log
+
+# Minecraft
+*.log.gz
+crash-reports/
+
+# Local
+local.properties
+

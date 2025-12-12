@@ -1,0 +1,33 @@
+modLoader = "javafml"
+loaderVersion = "[43,)"
+license = "MIT"
+
+[[mods]]
+modId = "goblinfix"
+version = "1.0.0"
+displayName = "Tensura Goblin Fix"
+description = '''
+Fixes the ArrayIndexOutOfBoundsException crash when rendering Tensura goblins with invalid Clothing values.
+'''
+
+[[dependencies.goblinfix]]
+modId = "forge"
+mandatory = true
+versionRange = "[43,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblinfix]]
+modId = "minecraft"
+mandatory = true
+versionRange = "[1.19.2,1.20)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.goblinfix]]
+modId = "tensura"
+mandatory = true
+versionRange = "*"
+ordering = "AFTER"
+side = "BOTH"
+
